@@ -1,0 +1,10 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+    }
+}
+rootProject.name = 'lab-consumer-dead-letter'
+
+include ':lab-common'
+
+project(":lab-common").projectDir = new File(settingsDir, "../lab-common")
