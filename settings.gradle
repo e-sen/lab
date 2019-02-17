@@ -1,0 +1,9 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'lab'
+
+include 'lab-common', 'lab-consumer-normal', 'lab-consumer-dead-letter', 'lab-producer'
