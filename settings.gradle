@@ -6,4 +6,4 @@ pluginManagement {
 
 rootProject.name = 'lab'
 
-include 'lab-common', 'lab-consumer-normal', 'lab-consumer-dead-letter', 'lab-producer'
+include 'lab-common', 'lab-center', 'lab-admin', 'lab-consumer-normal', 'lab-consumer-dead-letter', 'lab-producer'

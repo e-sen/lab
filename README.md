@@ -1,4 +1,4 @@
-## Spring-Boot-Rabbit-Dead-Letter-Demo
+## Spring-Boot-Admin-Demo
 
     RabbitMQ 死信案例
     

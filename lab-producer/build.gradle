@@ -43,6 +43,7 @@ repositories {
 
 ext {
     springCloudVersion = 'Finchley.SR2'
+    springBootAdminVersion = '2.0.4'
 }
 
 configurations {
@@ -50,14 +51,18 @@ configurations {
 }
 
 dependencies {
-    implementation('org.springframework.boot:spring-boot-starter-web-services')
+    implementation('org.springframework.cloud:spring-cloud-starter-netflix-eureka-client')
+    implementation('org.springframework.boot:spring-boot-starter-actuator')
     implementation('org.springframework.boot:spring-boot-starter-undertow')
     implementation('org.springframework.boot:spring-boot-starter-amqp')
+    implementation('org.springframework.boot:spring-boot-starter-web')
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
 
     implementation("org.axonframework:axon-amqp:${axonVersion}")
     implementation("org.axonframework:axon-spring-boot-starter:${axonVersion}")
+
+    implementation('de.codecentric:spring-boot-admin-starter-client')
 
     implementation project(':lab-common')
 
@@ -67,5 +72,6 @@ dependencies {
 dependencyManagement {
     imports {
         mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
+        mavenBom "de.codecentric:spring-boot-admin-dependencies:${springBootAdminVersion}"
     }
 }
