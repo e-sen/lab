@@ -1,0 +1,26 @@
+{
+  "name": "lab",
+  "version": "1.0.0",
+  "description": "Esen's lab",
+  "scripts": {
+    "log": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e-sen/lab.git"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "author": "Jiahua.Zhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/e-sen/lab/issues"
+  },
+  "homepage": "https://github.com/e-sen/lab#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0"
+  }
+}
