@@ -4,6 +4,8 @@
 
 * [SpringBoot监控中心](#spring-boot-admin-demo)
 
+* [RabbitMQ动态Queue](#spring-boot-admin-demo)
+
 <a name="spring-boot-rabbit-deal-letter-demo"></a>
 ### [RabbitMQ死信](../../tree/spring-boot-rabbit-dead-letter-demo)
     
@@ -13,6 +15,11 @@
 ### [SpringBoot监控中心](../../tree/spring-boot-admin-demo)
 
     SpringBoot监控中心案例
+    
+<a name="spring-boot-rabbit-dynamic-queue-demo"></a>
+### [RabbitMQ动态Queue](../../tree/spring-boot-rabbit-dynamic-queue-demo)
+
+    RabbitMQ动态Queue案例
     
 #### 技术栈
 * SpringBoot-2.0.6-RELEASE
